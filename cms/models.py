@@ -16,3 +16,6 @@ class Chois(models.Model):
 
     def __str__(self):
         return self.choice_text
+    
+class Book(models.Model):
+    book_id=models.CharField(max_length=32)

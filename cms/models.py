@@ -19,3 +19,5 @@ class Chois(models.Model):
     
 class Book(models.Model):
     book_id=models.CharField(max_length=32)
+    title=models.CharField(max_length=256)
+    
